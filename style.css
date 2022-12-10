@@ -1,0 +1,531 @@
+body {
+  background-color: #8201011c;
+}
+
+.header-red {
+  background-color: #820101;
+  color: blanchedalmond;
+}
+/* @media (max-width: 1199px) {
+  body {
+    overflow: hidden;
+  }
+} */
+.btn-warning {
+  background-color: #820101;
+  color: blanchedalmond;
+  border: 3px solid blanchedalmond;
+  font-weight: bolder;
+}
+
+/* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
+.btn-warning:focus {box-shadow: 0; text-shadow: none;} */
+.heroes {
+  background-image: url(./Heroes-img.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh; 
+}
+
+@media (max-width: 1199px) {
+  .heroes {
+    height: 90%;
+  }
+}
+.heroes-2 {
+  background-image: url(Flags.png);
+  background-size: cover;
+  background-position: top;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.display-56 {
+  max-width: 650px;
+  font-size: 55px;
+}
+
+.display-43 {
+  background-color: #820101;
+  padding: 50px;
+  margin-right: 150px;
+  border: 6px solid #bd0000;
+}
+
+@media (max-width: 1199px) {
+  .display-43 {
+    padding-left: none;
+    /* margin: 0 auto; */
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-43 {
+    padding-left: none;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-43 {
+    padding-left: none;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .display-43 {
+    padding-left: none;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .display-43 {
+    padding-left: none;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .display-43 {
+    padding-left: none;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+.pt-h1 {
+  margin: 0 auto;
+  text-shadow: 3px 2px 3px #00000098;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pt-h2 {
+  margin: 0 auto;
+  text-shadow: 3px 2px 3px #00000057;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.lead-text {
+  max-width: 200px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+.btn-tg {
+  padding: 2px;
+  border-radius: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgb(34, 138, 185);
+}
+
+.btn-yt {
+  padding: 2px;
+  border-radius: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: red;
+}
+
+.lead-1 {
+  font-weight: 600;
+  opacity: 65%;
+}
+
+.more-text {
+  display: flex;
+}
+
+.coal {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.btn-tel {
+  margin-left: 30px;
+  margin-left: 1000px;
+  margin-top: -295px;
+  background-color: red;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.411);
+}
+
+.navigation-main {
+  padding: 0;
+}
+
+footer {
+  background-color: #820101;
+}
+
+.tytle-delivery {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 28px;
+  padding-top: 30px;
+  color: rgb(15, 15, 15);
+}
+
+.tytle-delivery-2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.delivery-instruction {
+  background-color: #820101;
+  margin-top: 100px;
+}
+
+.I-am-so-lasy-to-name-this-class {
+  padding-bottom: 40px;
+}
+
+.nums-and-lines {
+  display: flex;
+  justify-content: center;
+}
+
+.grey-line {
+  border-radius: 10px;
+  margin-top: 9px;
+  opacity: 40%;
+}
+
+.number {
+  background-color: rgb(10, 10, 10);
+  border-radius: 25px;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  padding-bottom: 1px;
+  border: white 2px;
+  width: 47px;
+}
+
+.title-of-instruction {
+  font-size: 27px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.instruction {
+  max-width: 300px;
+  font-size: 19px;
+}
+
+.instruction-of-shopping {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inst-4 {
+  max-width: 200px;
+  padding: 40px 0;
+}
+
+.inst-3 {
+  max-width: 200px;
+  padding: 40px 0;
+}
+
+.inst-2 {
+  max-width: 200px;
+  padding: 40px 0;
+}
+
+.inst-1 {
+  max-width: 200px;
+  padding: 40px 0;
+}
+
+@media (max-width: 395px) {
+  .inst-4 {
+    max-width: 400px;
+    padding: 40px 0;
+  }
+
+  .inst-3 {
+    max-width: 400px;
+    padding: 40px 0;
+  }
+
+  .inst-2 {
+    max-width: 400px;
+    padding: 40px 0;
+  }
+
+  .inst-1 {
+    max-width: 400px;
+    padding: 40px 0;
+  }
+}
+
+.instruction-of-delivery {
+  margin: 0 auto;
+}
+
+.brown-padding {
+  color: #820101;
+  font-size: 1px;
+}
+
+.just-text {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(248, 248, 248);
+  text-shadow: rgba(0, 0, 0, 0.548) 2px 2px 2px;
+  padding-left: 30px;
+}
+
+@media (max-width: 1054px) {
+  .just-text {
+    /* margin: 0 auto; */
+  }
+}
+
+@media (max-width: 576px) {
+  .just-text {
+    padding-left: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .just-text {
+    padding-left: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .just-text {
+    padding-left: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .just-text {
+    padding-left: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1400px) {
+  .just-text {
+    padding-left: none;
+    text-align: center;
+  }
+}
+
+.tshirts-card-many {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.tshirts-card {
+  /* margin: 0 auto; */
+  padding: 5px;
+  box-sizing: border-box;
+}
+.tshirts-card-cont {
+  background-color: aliceblue;
+  padding-bottom: 32px;
+}
+
+.tshirts-card-img {
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 320px;
+  height: 360px;
+}
+.img-card {
+  width: 320px;
+  height: 320px;
+  /* box-shadow: 0px 5px 12px rgb(0, 0, 0); */
+  z-index: -1;
+  
+}
+@media (min-width: 992px) {
+  .img-card {
+    width: 200px;
+    height: 200px;
+    
+  }
+}
+.tshirts-card-name {
+}
+
+.tshirts-card-size-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tshirts-card-size {
+  border: 2px solid rgb(124, 124, 124);
+  border-radius: 3px;
+  margin-right: 17px;
+  font-size: 26px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.tshirts-card-price {
+  font-size: 5px;
+}
+
+.tshirts-card-price-old {
+  opacity: 50%;
+  text-decoration: line-through;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tshirts-card-price-new {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.tshirts-card-btn {
+  font-size: 15px;
+  position: relative;
+}
+
+.tshirts-card-few {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 21px;
+  opacity: 50%;
+}
+
+.tshirts-card-img-1 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 51px;
+
+  position: relative;
+}
+
+.billet-breakfast {
+  background-color: #cf291a;
+  border: 3px solid rgb(255, 80, 68);
+  /* position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%; */
+  font-weight: 700;
+  font-size: 19px;
+  z-index: 5;
+  padding-bottom: 3px;
+}
+.billet-lunch {
+  background-color: #1a77ce;
+  border: 3px solid rgb(62, 167, 253);
+  /* position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%; */
+  font-weight: 700;
+  font-size: 19px;
+}
+.billet-dinner {
+  background-color: #5415b9;
+  border: 3px solid rgb(121, 63, 255);
+  /* position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%; */
+  font-weight: 700;
+  font-size: 19px;
+}
+.billet-dessert {
+  background-color: #b315b9;
+  border: 3px solid rgb(248, 58, 255);
+  /* position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%; */
+  font-weight: 700;
+  font-size: 19px;
+}
+.billet-drinks {
+  background-color: #28b915;
+  border: 3px solid rgb(58, 255, 68);
+  /* position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%; */
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.tshirts-card-price {
+  display: flex;
+}
+
+.tshirts-card-btn {
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(216, 25, 25);
+  border-radius: 10px;
+ border: 3px solid rgb(178, 25, 25);
+ color: rgb(255, 240, 240);
+ font-weight: 700;
+ 
+ 
+}
+.tshirts-card-btn:hover {
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(178, 25, 25);
+  border-radius: 10px;
+  border: 3px solid rgb(216, 25, 25);
+}
+
+.ssd {
+  font-size: 40px;
+  text-align: center;
+}
+
+.russian_breackfasts {
+}
+
+@media (max-width: 1599px) {
+  .russian_breackfasts {
+  }
+}
+
+.width-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+

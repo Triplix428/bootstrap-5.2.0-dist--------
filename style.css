@@ -20,7 +20,7 @@ body {
 .sotial {display: flex; font-size: 30px; justify-content: right; padding-right: 30px;}
 /* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
 .btn-warning:focus {box-shadow: 0; text-shadow: none;} */
-@media (max-width: 1055px) {
+@media (max-width: 1054px) {
   .sotial {
     padding-right: 0px;
   }

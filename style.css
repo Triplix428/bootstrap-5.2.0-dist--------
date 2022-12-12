@@ -27,7 +27,7 @@ body {
   background-attachment: fixed;
   height: 100vh; 
 }
-.btn-sotial {background-color: #820101; border: 3px solid #820101;}
+.btn-sotial {background-color: #820101; border: 3px solid #820101; border-radius: 300px;}
 @media (max-width: 1199px) {
   .heroes {
     height: 90%;

@@ -17,7 +17,7 @@ body {
   border: 3px solid blanchedalmond;
   font-weight: bolder;
 }
-.sotial {display: flex; font-size: 30px;}
+.sotial {display: flex; font-size: 30px; background-color: #820101;}
 /* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
 .btn-warning:focus {box-shadow: 0; text-shadow: none;} */
 .heroes {

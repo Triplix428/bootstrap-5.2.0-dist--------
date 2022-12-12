@@ -17,7 +17,7 @@ body {
   border: 3px solid blanchedalmond;
   font-weight: bolder;
 }
-.sotial {display: flex; font-size: 30px;}
+.sotial {display: flex; font-size: 30px; padding-right: 30px;}
 /* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
 .btn-warning:focus {box-shadow: 0; text-shadow: none;} */
 .heroes {
@@ -27,7 +27,7 @@ body {
   background-attachment: fixed;
   height: 100vh; 
 }
-.btn-sotial {background-color: #820101;}
+.btn-sotial {background-color: #820101; border: 3px solid #820101;}
 @media (max-width: 1199px) {
   .heroes {
     height: 90%;

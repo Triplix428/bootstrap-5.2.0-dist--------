@@ -17,12 +17,12 @@ body {
   border: 3px solid blanchedalmond;
   font-weight: bolder;
 }
-.sotial {display: flex; font-size: 30px; justify-content: right;}
+.sotial {display: flex; font-size: 30px; justify-content: right; padding-right: 30px;}
 /* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
 .btn-warning:focus {box-shadow: 0; text-shadow: none;} */
-@media (min-width: 1055px) {
-  .heroes {
-    padding-right: 30px;
+@media (max-width: 1055px) {
+  .sotial {
+    padding-right: 0px;
   }
 }
 .heroes {

@@ -6,11 +6,11 @@ body {
   background-color: #820101;
   color: blanchedalmond;
 }
- @media (max-width: 1199px) {
+ /* @media (max-width: 1199px) {
   body {
     overflow: hidden;
   }
-} 
+}  */
 .btn-warning {
   background-color: #820101;
   color: blanchedalmond;

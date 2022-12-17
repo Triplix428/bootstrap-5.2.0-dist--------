@@ -1,7 +1,7 @@
 body {
   background-color: #8201011c;
 }
-.logotipe {padding: 10px;}
+
 .header-red {
   background-color: #820101;
   color: blanchedalmond;
@@ -11,6 +11,7 @@ body {
     overflow: hidden;
   }
 }  */
+.logotipe {padding: 15px;}
 .btn-warning {
   background-color: #820101;
   color: blanchedalmond;

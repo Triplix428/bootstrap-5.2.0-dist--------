@@ -6,12 +6,14 @@ body {
   background-color: #820101;
   color: blanchedalmond;
 }
- /* @media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   body {
     overflow: hidden;
   }
 }  */
-.logotipe {padding: 23px;}
+.logotipe {
+  padding: 23px;
+}
 @media (max-width: 830px) {
   .logotipe {
     justify-content: center;
@@ -23,7 +25,12 @@ body {
   border: 3px solid blanchedalmond;
   font-weight: bolder;
 }
-.sotial {display: flex; font-size: 30px; justify-content: right; padding-right: 25px;}
+.sotial {
+  display: flex;
+  font-size: 30px;
+  justify-content: right;
+  padding-right: 25px;
+}
 /* .btn-warning:hover {border: 5px solid   blanchedalmond; background-color: darkorange;}
 .btn-warning:focus {box-shadow: 0; text-shadow: none;} */
 @media (max-width: 1054px) {
@@ -36,9 +43,13 @@ body {
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  height: 100vh; 
+  height: 100vh;
 }
-.btn-sotial {background-color: #820101; border: 3px solid #820101; border-radius: 800px;}
+.btn-sotial {
+  background-color: #820101;
+  border: 3px solid #820101;
+  border-radius: 800px;
+}
 @media (max-width: 1199px) {
   .heroes {
     height: 90%;
@@ -239,7 +250,9 @@ footer {
   max-width: 300px;
   font-size: 19px;
 }
-
+.center-card {
+  text-align: center;
+}
 .instruction-of-shopping {
   display: flex;
   justify-content: space-between;
@@ -374,13 +387,11 @@ footer {
   height: 320px;
   /* box-shadow: 0px 5px 12px rgb(0, 0, 0); */
   z-index: -1;
-  
 }
 @media (min-width: 992px) {
   .img-card {
     width: 200px;
     height: 200px;
-    
   }
 }
 .tshirts-card-name {
@@ -503,11 +514,9 @@ footer {
   padding-right: 15px;
   background-color: rgb(216, 25, 25);
   border-radius: 10px;
- border: 3px solid rgb(178, 25, 25);
- color: rgb(255, 240, 240);
- font-weight: 700;
- 
- 
+  border: 3px solid rgb(178, 25, 25);
+  color: rgb(255, 240, 240);
+  font-weight: 700;
 }
 .tshirts-card-btn:hover {
   font-size: 14px;
@@ -538,5 +547,3 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
-
-

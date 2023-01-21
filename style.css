@@ -12,12 +12,14 @@ body {
   }
 }  */
 .logotipe {
-  padding: 23px;
 }
-@media (max-width: 830px) {
+@media (min-width: 830px) {
   .logotipe {
     justify-content: center;
+    padding-left: 12px;
+  
   }
+  .modal-title {text-align: center;}
 }
 .btn-warning {
   background-color: #820101;
@@ -371,7 +373,7 @@ footer {
   box-sizing: border-box;
 }
 .tshirts-card-cont {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   padding-bottom: 32px;
 }
 
@@ -395,6 +397,8 @@ footer {
   }
 }
 .tshirts-card-name {
+  max-width: 280px; margin: 0 auto;
+  font-size: 10px;
 }
 
 .tshirts-card-size-price {
@@ -546,4 +550,44 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.modal-content {display: flex;}.left-content {width: 150px;
+}
+.rihg-content {width:150px;
+}
+.number-colt {display: flex; border-radius: 2px; width: 100px;
+    font-weight: bold; vertical-align: middle; align-items: center; 
+}
+.number-minus {
+  font-size: 33px;
+  font-weight: bolder; cursor: pointer;
+  color: #ac0101;
+  text-decoration: double;
+}
+.num-input {
+  text-align: center; border: none; outline: none; font-size: 40px;
+  width: 70px; color: #101010; text-decoration: solid;
+  
+  
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+.number-plus {
+  font-size: 33px; font-weight: bolder; cursor: pointer; color: #ac0101; text-decoration: dashed; 
 }

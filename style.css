@@ -13,13 +13,18 @@ body {
 }  */
 .logotipe {
 }
+.modal {
+  overflow-x: visible;
+  overflow-y: hidden;
+}
 @media (min-width: 830px) {
   .logotipe {
     justify-content: center;
     padding-left: 12px;
-  
   }
-  .modal-title {text-align: center;}
+  .modal-title {
+    text-align: center;
+  }
 }
 .btn-warning {
   background-color: #820101;
@@ -52,15 +57,27 @@ body {
   border: 3px solid #820101;
   border-radius: 800px;
 }
+
 @media (max-width: 1199px) {
   .heroes {
     height: 90%;
   }
 }
 .heroes-2 {
-  background-image: url(Flags.png);
+  /* background-image: url(Flags.png);
   background-size: cover;
-  background-position: top;
+  background-position: top; */
+  background-color: #cf291a;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.heroes-3 {
+  /* background-image: url(Flags.png);
+  background-size: cover;
+  background-position: top; */
+  background-color: #1a77ce;
 
   display: flex;
   justify-content: space-between;
@@ -397,8 +414,8 @@ footer {
   }
 }
 .tshirts-card-name {
-  max-width: 280px; margin: 0 auto;
-  font-size: 10px;
+  max-width: 280px;
+  margin: 0 auto;
 }
 
 .tshirts-card-size-price {
@@ -551,33 +568,51 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
-.modal-content {display: flex;}.left-content {width: 150px;
+.modal-body-content {
+  display: flex;
 }
-.rihg-content {width:150px;
+.left-content {
+  width: 210px;
 }
-.number-colt {display: flex; border-radius: 2px; width: 100px;
-    font-weight: bold; vertical-align: middle; align-items: center; 
+.rihg-content {
+  width: 330px;
+}
+.number-colt {
+  display: flex;
+  border-radius: 2px;
+  width: 100%;
+  font-weight: bold;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
 }
 .number-minus {
   font-size: 33px;
-  font-weight: bolder; cursor: pointer;
+  font-weight: bolder;
+  cursor: pointer;
   color: #ac0101;
   text-decoration: double;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 300px;
 }
 .num-input {
-  text-align: center; border: none; outline: none; font-size: 40px;
-  width: 70px; color: #101010; text-decoration: solid;
-  
-  
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  width: 70px;
+  color: #101010;
+  text-decoration: solid;
+  pointer-events: none;
 }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-  
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -589,5 +624,161 @@ input[type="number"]:focus {
   -moz-appearance: number-input;
 }
 .number-plus {
-  font-size: 33px; font-weight: bolder; cursor: pointer; color: #ac0101; text-decoration: dashed; 
+  font-size: 33px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #ac0101;
+  text-decoration: dashed;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 300px;
+}
+.korzina {
+  position: fixed;
+  z-index: 40;
+  border-radius: 60px;
+  justify-content: right;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  text-align: right;
+  right: 35px;
+  bottom: 40px;
+  z-index: 200;
+}
+.korzina :hover {
+  cursor: pointer;
+}
+.games {
+  position: fixed;
+  z-index: 40;
+  border-radius: 60px;
+  justify-content: right;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  text-align: right;
+  right: 35px;
+  bottom: 40px;
+  z-index: 200;
+}
+.games :hover {
+  cursor: pointer;
+}
+.choose-city {
+  font-size: 20px;
+  color: #820101;
+  width: 20px;
+  height: 20px;
+  z-index: 200;
+}
+.choose-city:checked + label,
+.choose-city:not(:checked) + label {
+  background-color: #820101;
+  border: 3px solid #820101;
+}
+.choose-city-laibel {
+  font-size: 20px;
+  font-weight: 800;
+}
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+.inpuuut {
+  border: 4px solid #820101;
+  border-radius: 7px;
+  width: 430px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+.inpuuut:focus {
+  border: 4px solid #820101;
+  border-radius: 7px;
+  width: 430px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 16px;
+  box-shadow: #d50000 0px 0px 10px;
+}
+
+.inpuuut-1 {
+  border: 5px solid #820101;
+  border-radius: 5px;
+  width: 146px;
+  color: #820101;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 20px;
+}
+.inpuuut-1:focus {
+  border: 5px solid #820101;
+  border-radius: 5px;
+  width: 146px;
+  color: #820101;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 20px;
+  box-shadow: #d50000 0px 0px 10px;
+}
+.submit {
+  font-size: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(216, 25, 25);
+  border-radius: 11px;
+  border: 4px solid rgb(178, 25, 25);
+  color: rgb(255, 240, 240);
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.submit:hover {
+  font-size: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(178, 25, 25);
+  border-radius: 11px;
+  border: 4px solid rgb(216, 25, 25);
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.korzina-modal {
+  text-align: center;
+}
+.way-of-pay {
+}
+.vke {
+  margin-left: 17px;
+}
+.krm {
+  text-align: center;
+  padding: 4px;
+}
+.uuu {
+  padding-top: 15px;
+}
+.hjk {
+  margin-left: 17px;
+}
+
+.novigation {
+  background-color: #820101;
+ position: fixed;
+  border: none;
+  bottom: 100%;
+  height: 30px;
+  z-index: 200;
+  display: flex;
 }

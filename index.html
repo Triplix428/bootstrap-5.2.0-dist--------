@@ -5,10 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="FAVICON (1).ico" />
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="style.css" />
   <title>Muffin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +20,7 @@
       class="header-red d-flex flex-wrap align-items-center justify-content-center justify-content-xl-between py-3">
       <a href="/"
         class="d-flex align-items-center col-md-3 mb-2 mb-md-0 pt-md-2 pr-md-3 pb-md-2 pl-md-1 text-dark text-decoration-none">
-        <img class="img logotipe" src="NewLogo.png" width="280px" />
+        <img class="img logotipe" src="НооооовоеЛого.png" width="280px" />
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 px-md-5">
@@ -33,32 +36,102 @@
         </li>
       </ul>
 
+
       <div class="col-md-3 text-center">
         <!-- <button type="button" class="btn btn-danger btn-tg"><img src="https://altezza-store.ru/images/telegram.png" width="27px"></button>
                 <button type="button" class="btn btn-danger btn-yt"><img src="https://uploads-ssl.webflow.com/60f1dbb35d007bc5a31f8f5f/6137a457b28fdcf60cd98537_YOUTUBE-p-800.png" width="31px"></button> -->
         <div class="sotial">
           <button type="button" class="btn-sotial"><a href="vfbkluesnu.ru"><img src="YouTubeButton.png" width="60px"
                 height="60px"></a></button>
-          <button type="button" class="btn-sotial"><a href="vfbkluesnu.ru"><img src="Telegramm-button.png" width="60px"
-                height="60px"></a></button>
-          <button type="button" class="btn-sotial"><a href="vfbkluesnu.ru"><img src="VK-button.png" width="60px"
+          <button type="button" class="btn-sotial"><a href="ssssuuuuiiiii.ru"><img src="Telegramm-button.png"
+                width="60px" height="60px"></a></button>
+          <button type="button" class="btn-sotial"><a href="hjhjhjffffeew.ru"><img src="VK-button.png" width="60px"
                 height="60px"></a></button>
           <!-- <button type="button" class="btn-sotial"><a href="vfbkluesnu.ru"><img src="Odnoklassniky-button.png" width="60px" height="60px"></a></button> -->
         </div>
     </header>
-  </div>
-  <div class="px-4 py-5 text-center heroes container-fluid">
-    <h1 class="display-56 fw-bold text-light pt-h1">
-      Мы открылись!<br />
-      "Muffin"
-    </h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead-text mb-4 text-light pt-h1">
-        Заказ от 1200 рублей + доставка 199руб.
-      </p>
+
+  </div><div class="novigation"> <button type="button" class="korzina"><img src="Korzinka-4.png" width="65px" data-bs-toggle="modal"
+      data-bs-target="#exampleModal"></button>
+      </div>
+  <div>
+    <div class="modal fade modal-dialog-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Корзина</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- <h1 class="title">Booking</h1> -->
+            <form action="" method="post" id="form">
+              <div class="header">
+               
+              </div>
+            
+              <div class="row">
+                <label for="">1st Category</label>
+                <div class="inputfield">
+                  <button class="fa-solid fa-minus down number-minus">-</button>
+                  <input class="num-input" type="number"  min="1" max="999" value="1" step="1" maxlength="3"
+                  size="3">
+                  <button class="fa-solid fa-plus up number-plus">+</button>
+                </div>
+                <label class="price" for="">$300</label>
+              </div>
+      
+              <div class="total">Total: $<span>0</span></div>
+              <h5 class="vke">Введите имя</h5>
+              <input class="inpuuut" type="text">
+              <h5 class="vke">Введие номер телефона</h5>
+              <input class="inpuuut" type="tel">
+              <h5 class="dfh vke uuu">Город доставки</h5>
+              <div> <input class="form-check-input hjk" type="radio"value="Кудрово-100₽" id="choose-city">
+               <label class="choose-city-laibel" for="choose-city">Кудрово-100₽</label>
+               </div>
+               <input class="form-check-input hjk" type="radio"value="Санкт-Петербург-150₽" id="choose-city">
+               <label class="choose-city-laibel" for="choose-city">Санкт-Петербург-150₽</label>
+               
+               
+               <h5 class="vke uuu">Введите адрес доставки</h5>
+               <input class="inpuuut" type="text" placeholder="Улица, квартира, подъезд, этаж">
+               <div class="way-of-pay"><h5>Cпособ оплаты</h5>
+                <div><input class="form-check-input vke" type="radio"value="Кудрово-100₽" id="choose-city">
+                <label class="choose-city-laibel" for="choose-city">Безналичный</label></div>
+                <div class="hjk"><input class="form-check-input" type="radio"value="Кудрово-100₽" id="choose-city">
+                <label class="choose-city-laibel" for="choose-city">Наличный</label></div></div>
+                <h5 class="vke uuu">Дата доставки</h5>
+                <p class="krm">Доставим завтра или в любой другой день</p>
+                <input class="inpuuut-1 vke" type="date">
+                <h5 class="vke">Пожелания к заказу</h5>
+                <input class="inpuuut" type="text" form="form">
+                <h5 class="krm">согласие на обработку персональных данных</h5>
+                <input class="form-check-input" type="checkbox" id="check"> <label for="check">Оформляя заказ, Вы соглашаетесь на обработку Ваших персональных данных и принимаете условия публичной оферты</label>
+              
+              
+            </form>
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <input type="submit" class="submit btn btn-danger" value="Купить" form="form">
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- <div class="more-text">
+
+    <div class="px-4 py-5 text-center heroes container-fluid">
+      <h1 class="display-56 fw-bold text-light pt-h1">
+        Мы открылись!<br />
+        "Muffin"
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead-text mb-4 text-light pt-h1">
+          Заказ от 1200 рублей + доставка 199руб.
+        </p>
+      </div>
+    </div>
+    <!-- <div class="more-text">
         <div class="container">
             <h1 class="mt-5">Не смогли найти нужный товар?</h1>
             <p class="lead">
@@ -71,10 +144,10 @@
             <button type="button" class="btn btn-danger btn-tel">+7 900-804-700</button>
         </div>
     </div> -->
-  <div class="container_lol my-5">
-    <div class="px-4 py-5 text-center heroes-2 container-fluid">
-      <div class="just-text">Еда разных стран</div>
-      <!-- <div class="display-43 text-light fw-bold">
+    <div class="container_lol my-5">
+      <div class="px-4 py-5 text-center heroes-2 container-fluid">
+        <div class="just-text">Блины</div>
+        <!-- <div class="display-43 text-light fw-bold">
           <div class="brown-padding">.</div>
           250 иностранных блюд! Купи<br />
           все блюда одной страны<br />
@@ -82,234 +155,237 @@
           на ключ!
           <div class="brown-padding">.</div>
         </div> -->
-    </div>
+      </div>
 
-    <div class="local-food">
-      <div class="russian_breackfasts container-fluid">
-        <div class="row flex-md-wrap justify-content-around">
-          <!--Первая карточка  завтраки-->
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">90₽</div>
-                <img class="img-card" src="NevPankacezz.png" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины с грибами и сыром на рисовой муке</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- Button trigger modal -->
-
-            <!-- Modal -->
-            <div class="modal fade modal-dialog-scrollable" id="exampleModal" tabindex="-1"
-              aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Блины с мясом грибами и сыром на рисовой муке</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="local-food">
+        <div class="russian_breackfasts container-fluid">
+          <div class="row flex-md-wrap justify-content-around">
+            <!--Первая карточка  завтраки-->
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">90₽</div>
+                  <img class="img-card" src="NevPankacezz.png" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блин с грибами и сыром на рисовой муке</h5>
                   </div>
-                  <div class="modal-body">
-                    <div class="modal-content">
-                      <div class="left-content"><img src="NevPankacezz.png" width="210px"></div>
-                      <div class="rihg-content">
-                        
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn" data-bs-toggle="modal"
+                      data-bs-target="#Modal">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Button trigger modal -->
+
+              <!-- Modal -->
+              <div class="modal fade modal-dialog-scrollable" id="Modal" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Блин с грибами и сыром на рисовой муке</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="modal-body-content">
+                        <div class="left-content"><img src="NevPankacezz.png" width="210px"></div>
+                        <div class="rihg-content">
+
                           <div class="number-colt">
-                            <div class="number-minus">-</div>
+                            <button type="button" class="number-minus down">-</button>
                             <input class="num-input" type="number" min="1" max="999" value="1" step="1" maxlength="3"
                               size="3">
-                            <div class="number-plus">+</div>
+                            <button type="button" class="number-plus up">+</button>
+
                           </div>
-                        
+
+                        </div>
                       </div>
                     </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">80₽</div>
+                  <img class="img-card" src="https://s1.1zoom.ru/big7/580/Croissant_Two_473274.jpg" width="250px"
+                    height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блин к клубникой на амарантовой муке</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">
+                    100₽
+                  </div>
+                  <img class="img-card"
+                    src="https://www.de-online.ru/novosti/2015-6/nurnberger_wurstchen-10579337046.jpg" width="250px"
+                    height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блин с курицой и овощами на гречневой муке</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">
+                    50₽
+                  </div>
+                  <img class="img-card"
+                    src="https://i.pinimg.com/originals/96/ca/f8/96caf85943cb56a886243b78325a3cf8.jpg" width="250px"
+                    height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блин с творогом на пшеничной муке</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class=" btn-danger  tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row flex-md-wrap">
+            <!--Первая карточка Обеды-->
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Италия</div>
+                  <img class="img-card"
+                    src="https://shale-chita.ru/media/images/store/food/59/d7/59d76327577f0efce91bf6bf51728e5c_HWBVhnE.jpg"
+                    width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Лазанья</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">70₽</div>
+                  <img class="img-card" src="Tea4.png" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Шоколадние кексы на гречневой муке с изюмом</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Мексика</div>
+                  <img class="img-card"
+                    src="https://pinktrollkitchen.files.wordpress.com/2013/02/chilitacos.jpg?w=1566&h=1252"
+                    width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Тако</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Япония</div>
+                  <img class="img-card"
+                    src="https://avatars.mds.yandex.net/get-altay/4079855/2a0000017af16817e389f4c64af8b6f83c38/XXL"
+                    width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Суши/Роллы</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
 
           </div>
-
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Франция</div>
-                <img class="img-card" src="https://s1.1zoom.ru/big7/580/Croissant_Two_473274.jpg" width="250px"
-                  height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Круасаны</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">
-                  Германия
-                </div>
-                <img class="img-card" src="https://www.de-online.ru/novosti/2015-6/nurnberger_wurstchen-10579337046.jpg"
-                  width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Колбаски</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">
-                  Америка
-                </div>
-                <img class="img-card" src="https://i.pinimg.com/originals/96/ca/f8/96caf85943cb56a886243b78325a3cf8.jpg"
-                  width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Бургер</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class=" btn-danger  tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row flex-md-wrap">
-          <!--Первая карточка Обеды-->
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Италия</div>
-                <img class="img-card"
-                  src="https://shale-chita.ru/media/images/store/food/59/d7/59d76327577f0efce91bf6bf51728e5c_HWBVhnE.jpg"
-                  width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Лазанья</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">70₽</div>
-                <img class="img-card" src="Tea4.png" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Шоколадние кексы на гречневой муке с изюмом</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Мексика</div>
-                <img class="img-card"
-                  src="https://pinktrollkitchen.files.wordpress.com/2013/02/chilitacos.jpg?w=1566&h=1252" width="250px"
-                  height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Тако</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Япония</div>
-                <img class="img-card"
-                  src="https://avatars.mds.yandex.net/get-altay/4079855/2a0000017af16817e389f4c64af8b6f83c38/XXL"
-                  width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Суши/Роллы</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
-  </div>
-  <div class="container_lol my-5">
-    <div class="px-4 py-5 text-center heroes-2 container-fluid">
-      <div class="just-text">Еда из игр</div>
-      <!-- <div class="display-43 text-light fw-bold">
+    <div class="container_lol my-5">
+      <div class="px-4 py-5 text-center heroes-3 container-fluid">
+        <div class="just-text">Маффины</div>
+        <!-- <div class="display-43 text-light fw-bold">
             <div class="brown-padding">.</div>
             250 иностранных блюд! Купи<br />
             все блюда одной страны<br />
@@ -317,186 +393,186 @@
             на ключ!
             <div class="brown-padding">.</div>
           </div> -->
-    </div>
+      </div>
 
-    <div class="local-food">
-      <div class="russian_breackfasts container-fluid">
-        <div class="row flex-md-wrap justify-content-around">
-          <!--Первая карточка  завтраки-->
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Россия</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
+      <div class="local-food">
+        <div class="russian_breackfasts container-fluid">
+          <div class="row flex-md-wrap justify-content-around">
+            <!--Первая карточка  завтраки-->
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Россия</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Франция</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">
+                    Россия
+                  </div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">
+                    Россия
+                  </div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Франция</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
+          <div class="row flex-md-wrap">
+            <!--Первая карточка Обеды-->
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Обед</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Обед</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
 
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Обед</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+              <div class="tshirts-card-cont">
+                <div class="tshirts-card-img-1">
+                  <div class="billet-breakfast text-light">Обед</div>
+                  <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                  <div class="tshirts-card-name">
+                    <br />
+                    <h5>Блины</h5>
+                  </div>
+                </div>
+
+                <div class="tshirts-card-size-price">
+                  <div class="tshirts-card-price">
+                    <button type="button" class="btn btn-danger tshirts-card-btn">
+                      Перейти к товару
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">
-                  Россия
-                </div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">
-                  Россия
-                </div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row flex-md-wrap">
-          <!--Первая карточка Обеды-->
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Обед</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Обед</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Обед</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-            <div class="tshirts-card-cont">
-              <div class="tshirts-card-img-1">
-                <div class="billet-breakfast text-light">Обед</div>
-                <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                <div class="tshirts-card-name">
-                  <br />
-                  <h4>Блины</h4>
-                </div>
-              </div>
-
-              <div class="tshirts-card-size-price">
-                <div class="tshirts-card-price">
-                  <button type="button" class="btn btn-danger tshirts-card-btn">
-                    Перейти к товару
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container_lol my-5">
-          <div class="px-4 py-5 text-center heroes-2 container-fluid">
-            <div class="just-text">Еда из мультиков</div>
-            <!-- <div class="display-43 text-light fw-bold">
+          <div class="container_lol my-5">
+            <div class="px-4 py-5 text-center heroes-2 container-fluid">
+              <div class="just-text">Еда из мультиков</div>
+              <!-- <div class="display-43 text-light fw-bold">
                   <div class="brown-padding">.</div>
                   250 иностранных блюд! Купи<br />
                   все блюда одной страны<br />
@@ -504,177 +580,178 @@
                   на ключ!
                   <div class="brown-padding">.</div>
                 </div> -->
-          </div>
+            </div>
 
-          <div class="local-food">
-            <div class="russian_breackfasts container-fluid">
-              <div class="row flex-md-wrap justify-content-around">
-                <!--Первая карточка  завтраки-->
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Россия</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
+            <div class="local-food">
+              <div class="russian_breackfasts container-fluid">
+                <div class="row flex-md-wrap justify-content-around">
+                  <!--Первая карточка  завтраки-->
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Россия</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
+                      </div>
+
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
+                  </div>
 
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Франция</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
+                      </div>
+
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">
+                          Германия
+                        </div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
+                      </div>
+
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">
+                          Америка
+                        </div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
+                      </div>
+
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Франция</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
+                <div class="row flex-md-wrap">
+                  <!--Первая карточка Обеды-->
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Италия</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
                       </div>
-                    </div>
 
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">
-                        Германия
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Китай</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
                       </div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
 
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">
-                        Америка
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Мексика</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
                       </div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
 
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                  <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
+                    <div class="tshirts-card-cont">
+                      <div class="tshirts-card-img-1">
+                        <div class="billet-breakfast text-light">Япония</div>
+                        <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
+                        <div class="tshirts-card-name">
+                          <br />
+                          <h5>Блины</h5>
+                        </div>
+                      </div>
 
-              <div class="row flex-md-wrap">
-                <!--Первая карточка Обеды-->
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Италия</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
-
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Китай</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
-
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Мексика</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
-
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tshirts-card col-lg-3 col-md-6 col-sm-6">
-                  <div class="tshirts-card-cont">
-                    <div class="tshirts-card-img-1">
-                      <div class="billet-breakfast text-light">Япония</div>
-                      <img class="img-card" src="Pancakes.jpg" width="250px" height="250px" />
-                      <div class="tshirts-card-name">
-                        <br />
-                        <h4>Блины</h4>
-                      </div>
-                    </div>
-
-                    <div class="tshirts-card-size-price">
-                      <div class="tshirts-card-price">
-                        <button type="button" class="btn btn-danger tshirts-card-btn">
-                          Перейти к товару
-                        </button>
+                      <div class="tshirts-card-size-price">
+                        <div class="tshirts-card-price">
+                          <button type="button" class="btn btn-danger tshirts-card-btn">
+                            Перейти к товару
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -682,28 +759,27 @@
               </div>
             </div>
           </div>
-        </div>
-        <main>
-          <section>
-            <div class="delivery-instruction">
-              <div class="fw-bold text-light pt-h1 tytle-delivery-2">
-                О доставке
+          <main>
+            <section>
+              <div class="delivery-instruction">
+                <div class="fw-bold text-light pt-h1 tytle-delivery-2">
+                  О доставке
+                </div>
+                <div class="text-light pt-h2">Мы осуществляем доставку до двери.</div>
+                <div class="text-light pt-h2">
+                  Призы полученные с акций будут доставлены вместе с вашим следующим
+                  заказом.
+                </div>
+                <div class="text-light pt-h2 I-am-so-lasy-to-name-this-class">
+                  Заказы от 2000 рублей могут быть доставлены в день оформления
+                  заказа.
+                </div>
               </div>
-              <div class="text-light pt-h2">Мы осуществляем доставку до двери.</div>
-              <div class="text-light pt-h2">
-                Призы полученные с акций будут доставлены вместе с вашим следующим
-                заказом.
-              </div>
-              <div class="text-light pt-h2 I-am-so-lasy-to-name-this-class">
-                Заказы от 2000 рублей могут быть доставлены в день оформления
-                заказа.
-              </div>
-            </div>
-          </section>
-          <section class="container">
-            <div class="fw-bold tytle-delivery">Как это работает</div>
-            <div class="instruction-of-delivery row">
-              <!-- <div class="nums-and-lines">
+            </section>
+            <section class="container">
+              <div class="fw-bold tytle-delivery">Как это работает</div>
+              <div class="instruction-of-delivery row">
+                <!-- <div class="nums-and-lines">
                     <div class="number text-light">1</div>
                     <div class="grey-line"><img
                             src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
@@ -719,82 +795,83 @@
                     <div class="number text-light">4</div>
 
                 </div> -->
-              <div class="instruction-of-shopping">
-                <div class="inst-1">
-                  <div class="number text-light">1</div>
-                  <div class="grey-line">
-                    <img
-                      src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
-                      width="200px" height="3px" />
-                  </div>
+                <div class="instruction-of-shopping">
+                  <div class="inst-1">
+                    <div class="number text-light">1</div>
+                    <div class="grey-line">
+                      <img
+                        src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
+                        width="200px" height="3px" />
+                    </div>
 
-                  <div class="title-of-instruction">Оформление заказа</div>
-                  <div class="instruction">
-                    Вы заполняете нашу корзину. Наполняете анкету с контактной
-                    информацией. Отправьте заявление и ждите телефонного звонка.
+                    <div class="title-of-instruction">Оформление заказа</div>
+                    <div class="instruction">
+                      Вы заполняете нашу корзину. Наполняете анкету с контактной
+                      информацией. Отправьте заявление и ждите телефонного звонка.
+                    </div>
                   </div>
-                </div>
-                <div class="inst-2">
-                  <div class="number text-light">2</div>
-                  <div class="grey-line">
-                    <img
-                      src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
-                      width="200px" height="3px" />
+                  <div class="inst-2">
+                    <div class="number text-light">2</div>
+                    <div class="grey-line">
+                      <img
+                        src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
+                        width="200px" height="3px" />
+                    </div>
+                    <div class="title-of-instruction">Подтверждение заказа</div>
+                    <div class="instruction">
+                      Мы осуществим звонок для подтверждения заказа, адреса доставки и
+                      способа оплаты. * Заявки обрабатываются в течение дня — с 3 дня
+                      до 12 часов ночи.
+                    </div>
                   </div>
-                  <div class="title-of-instruction">Подтверждение заказа</div>
-                  <div class="instruction">
-                    Мы осуществим звонок для подтверждения заказа, адреса доставки и
-                    способа оплаты. * Заявки обрабатываются в течение дня — с 3 дня
-                    до 12 часов ночи.
+                  <div class="inst-3">
+                    <div class="number text-light">3</div>
+                    <div class="grey-line">
+                      <img
+                        src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
+                        width="200px" height="3px" />
+                    </div>
+                    <div class="title-of-instruction">Сбор заказа</div>
+                    <div class="instruction">
+                      Заказанная Вами продукция изготавливается вечером, а днём мы
+                      передаем свежие блюда, напитки и закуски в службу доставки.
+                    </div>
                   </div>
-                </div>
-                <div class="inst-3">
-                  <div class="number text-light">3</div>
-                  <div class="grey-line">
-                    <img
-                      src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
-                      width="200px" height="3px" />
-                  </div>
-                  <div class="title-of-instruction">Сбор заказа</div>
-                  <div class="instruction">
-                    Заказанная Вами продукция изготавливается вечером, а днём мы
-                    передаем свежие блюда, напитки и закуски в службу доставки.
-                  </div>
-                </div>
-                <div class="inst-4">
-                  <div class="number text-light">4</div>
-                  <div class="grey-line">
-                    <img
-                      src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
-                      width="200px" height="3px" />
-                  </div>
-                  <div class="title-of-instruction">Доставка</div>
-                  <div class="instruction">
-                    Курьер доставляет заказ до вашей двери. Оплату можно осуществить
-                    банковской картой или наличными. * Доставка осуществляется в
-                    течение дня - с 14 дня до 3 часов ночи.
+                  <div class="inst-4">
+                    <div class="number text-light">4</div>
+                    <div class="grey-line">
+                      <img
+                        src="https://phonoteka.org/uploads/posts/2021-04/1619144345_55-phonoteka_org-p-sploshnoi-chernii-fon-65.jpg"
+                        width="200px" height="3px" />
+                    </div>
+                    <div class="title-of-instruction">Доставка</div>
+                    <div class="instruction">
+                      Курьер доставляет заказ до вашей двери. Оплату можно осуществить
+                      банковской картой или наличными. * Доставка осуществляется в
+                      течение дня - с 14 дня до 3 часов ночи.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        </main>
+            </section>
+          </main>
 
-        <footer>
-          <div class="px-4 py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="NewLogo.png" width="312" />
-            <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4 text-light">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source toolkit,
-                featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.
-              </p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
+          <footer>
+            <div class="px-4 py-5 text-center">
+              <img class="d-block mx-auto mb-4" src="НооооовоеЛого.png" width="312" />
+              <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 text-light">
+                  Quickly design and customize responsive mobile-first sites with
+                  Bootstrap, the world’s most popular front-end open source toolkit,
+                  featuring Sass variables and mixins, responsive grid system,
+                  extensive prebuilt components, and powerful JavaScript plugins.
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
+              </div>
             </div>
-          </div>
-        </footer>
-        <script src="js/bootstrap.js"></script>
+          </footer>
+          <script src="js/bootstrap.js"></script>
+          <script src="script.js"></script>
 </body>
 
 </html>
